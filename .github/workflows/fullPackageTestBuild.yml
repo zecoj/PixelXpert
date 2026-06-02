@@ -39,7 +39,7 @@ jobs:
         env:
           BUILD_TOOLS_VERSION: "33.0.0"
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v7.0.1
         name: Upload APK file
         with:
           name: PixelXpert.apk
