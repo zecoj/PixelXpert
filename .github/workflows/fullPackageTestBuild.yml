@@ -49,7 +49,7 @@ jobs:
         run: .github/make_debug_zip.sh
 
       - name: Upload Zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: PixelXpert.zip
           path: output
